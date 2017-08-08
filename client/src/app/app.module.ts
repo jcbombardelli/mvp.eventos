@@ -6,19 +6,22 @@ import { FormsModule } from "@angular/forms";
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from "./app.routing.module";
 import { IndexComponent } from "./partials/index/index.component";
+import { IndexModule } from "./partials/index/index.module";
+import { EventModule } from "./partials/event/event.module";
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    IndexComponent,
+    AppComponent
   ],
   
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
-    AppRoutingModule,
+    IndexModule,
+    EventModule,
+    AppRoutingModule
   ],
 
   providers: [],

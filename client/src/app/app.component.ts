@@ -6,17 +6,6 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-
-
-  title = 'Events.events';
-  showNavMenu: boolean = false;
-
-  ngOnInit() {
-    
-
-  }
-
-
-
+  ngOnInit() { }
   constructor() { }
 }

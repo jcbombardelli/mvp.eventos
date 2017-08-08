@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EventService } from "../event/event.service";
 
 @Component({
   selector: 'app-index',
@@ -10,9 +11,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IndexComponent implements OnInit {
 
-  constructor() { }
+
+  private events : any[];
+
+  constructor(private eventService : EventService) { }
 
   ngOnInit() {
+     this.events = this.eventService.getLastSixEvents();
   }
 
 }
