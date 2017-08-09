@@ -5,8 +5,9 @@ import { EventService } from "../event/event.service";
   selector: 'app-index',
   templateUrl: './index.component.html',
   styleUrls: [
+    '../../../assets/vendor/bootstrap/css/bootstrap.min.css',    
     '../../../assets/vendor/magnific-popup/magnific-popup.css',
-    '../../../assets/css/creative.min.css',
+    '../../../assets/css/creative.css',
     './index.component.css']
 })
 export class IndexComponent implements OnInit {

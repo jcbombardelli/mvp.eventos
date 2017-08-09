@@ -6,9 +6,9 @@ export class EventService {
 
   private events: any[] = [
 
-    { id: 1, name: "Peça 001", category: "Teatro", photo: "../../../assets/img/portfolio/thumbnails/1.jpg" },
-    { id: 2, name: "Peça 002", category: "Teatro", photo: "../../../assets/img/portfolio/thumbnails/1.jpg" },
-    { id: 3, name: "Peça 003", category: "Teatro", photo: "../../../assets/img/portfolio/thumbnails/1.jpg" }
+    { id: 1, name: "Uma noite dessas!", category: "Espetaculo de Teatro", photo: "../../../assets/img/portfolio/thumbnails/peca001.png" },
+    { id: 2, name: "Proparoxítona", category: "Espetaculo de Teatro", photo: "../../../assets/img/portfolio/thumbnails/peca002.png" },
+    { id: 3, name: "Sociedade dos poetas mortos", category: "Espetaculo de Teatro", photo: "../../../assets/img/portfolio/thumbnails/peca003.jpeg" }
 
   ];
 
